@@ -1,0 +1,58 @@
+/* Ensure the body or container of the page has some default styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Optional: Light background color for the page */
+}
+
+/* Center align the h1 element */
+h1 {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;     /* Center the content vertically */
+    background-color: black;  /* Set the background color to blue */
+    color: white;            /* Set the font color to white */
+    height: 10vh;           /* Set height to full viewport height */
+    margin: 0;               /* Remove default margin */
+    font-size: 2em;          /* Increase the font size */
+    border-radius: 10px;     /* Optional: Add rounded corners */
+}
+
+ul {
+    list-style-type: none; /* Removes the bullet points */
+    padding: 0;            /* Optional: Removes the padding from the list */
+    margin: 0;             /* Optional: Removes the margin from the list */
+}
+/* Style the book titles as boxes */
+li {
+    text-align: center;      /* Center align text in list items */
+    margin-bottom: 10px;     /* Space between each list item */
+    padding: 10px;           /* Add padding inside each box */
+    background-color: #D3D3D3;  /* Set background color to grey */
+    color: black;            /* Set text color to white */
+    border-radius: 5px;      /* Add slight rounding to the corners */
+}
+
+
+/* Style the paragraph elements in a box */
+p {
+    text-align: center;      /* Center align text inside the paragraph */
+    padding: 15px;           /* Add padding inside the box */
+    color: black;            /* Set text color to black */
+    border-radius: 5px;      /* Add slight rounding to the corners */
+    margin: 20px auto;       /* Add some margin and center the box */
+    max-width: 400px;        /* Optional: Set a maximum width for the box */
+}
+
+/* Style links */
+a {
+    color: black; /* Default link color (same as text color in the box) */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Change color of links on hover */
+a:hover {
+    color: blue; /* Change link color to blue */
+}

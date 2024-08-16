@@ -1,0 +1,22 @@
+{% extends "book_outlet/base.html" %}
+
+{% load static %}
+
+{% block title %}
+  {{ title }}
+{% endblock %}
+
+{% block content %}
+  <link rel="stylesheet" type="text/css" href="{% static 'book_outlet/book_detail.css' %}">
+  <h1>{{ title }}</h1>
+  <h2>{{ author }}</h2>
+  <p>The book has a rating of {{ rating }}
+
+  {% if is_bestseller %}
+     and is a bestseller.
+
+  {% else %}
+     but isn't a bestseller
+  {% endif %}
+</p>
+{% endblock %}

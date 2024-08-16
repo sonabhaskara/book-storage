@@ -1,0 +1,53 @@
+/* Ensure the body or container of the page has some default styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Optional: Light background color for the page */
+}
+
+/* Center the entire content of the page */
+.content-wrapper {
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center;    /* Center align children horizontally */
+    justify-content: center; /* Center align children vertically */
+    min-height: 100vh;      /* Ensure it covers the full viewport height */
+    padding: 20px;
+}
+
+/* Title styling */
+h1 {
+    display: flex;
+    justify-content: center; /* Center the title horizontally */
+    align-items: center;     /* Center the title vertically */
+    background-color: black;  /* Set the background color to blue */
+    color: white;            /* Set the font color to white */
+    padding: 20px;           /* Add some padding */
+    border-radius: 10px;     /* Optional: Add rounded corners */
+    margin: 0;
+}
+
+/* Subtitle styling */
+h2 {
+    margin: 20px 0;          /* Space above and below the subtitle */
+    color: #333;             /* Dark grey color for the subtitle */
+}
+
+/* Paragraph styling */
+p {
+    text-align: center;      /* Center align text in the paragraph */
+    max-width: 600px;        /* Optional: Set a maximum width for better readability */
+    padding: 15px;           /* Add padding inside the paragraph */
+    background-color: #fff; /* Background color for the paragraph */
+    color: #333;             /* Text color */
+    border-radius: 5px;      /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+/* Center align h2 and p elements */
+h2, p {
+    margin: 20px 0; /* Space between elements */
+    max-width: 800px; /* Optional: Limit width for better readability */
+    width: 100%;
+}
